@@ -1,0 +1,349 @@
+*
+{
+    color:#000000;
+    font-family: 'Marker Felt', fantasy;
+    font-weight: 600;
+    font-variant: normal;
+    font-size: 15px;
+}
+
+body{
+    color:#f8f8f8;
+    background-color: #ffffff;
+}
+
+header{
+    padding: 0;
+    background-color: #55083e;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+}
+
+.header__header{
+    display: flex;
+    align-items: center;
+    height: 85px;
+    justify-content: space-between;
+}
+
+.header__div{
+    display: flex;
+    justify-content: left;
+
+    align-items: center;
+}
+
+.header__icone{
+    width: 60px;
+    padding: 4px;
+    margin: 12px;
+    opacity: 95%;
+}
+
+.header__span{
+    margin-left: 12px;
+    color: #0d4911
+}
+
+h1{
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    text-shadow: 5px 3px 2px #975a92;;
+}
+
+nav{
+    align-items: center;
+    display: flex; 
+    margin-right: 10px;
+    justify-content: right;
+    
+}
+
+ul{
+    
+    justify-content: flex-end;
+    display: flex;
+    margin: 0 auto; 
+}
+.nav__lista{
+    list-style-type: none;
+    text-align: right;
+    justify-content: right;
+    align-items: center;
+    margin: auto;
+    margin-left: 14px;
+    margin-right: 5px;
+    font-family:'Mukta', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.nav__lista--projeto{
+    font-family: serif;
+    padding: 20px;
+    text-decoration: none;
+    color: #ffffff;
+
+}
+.nav__lista--projeto:hover{
+    background-color: #b40e7d;
+    color:#ffffff;   
+}
+
+.nav__lista--agrotoxicos{
+    padding: 5px;
+    text-decoration: none;
+    color: #b40e7d;
+    text-shadow: 1px 1px b40e7d;
+}
+
+.nav__lista--mensagens{
+    font-family: serif;
+    padding: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav__lista--mensagens:hover{
+    background-color: #b40e7d;
+    color:#ffffff;   
+}
+
+.nav__lista--referencias{
+    font-family: serif;
+    padding: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav__lista--referencias:hover{
+    background-color: #b40e7d;
+    color:#ffffff;   
+
+}
+
+.nav__lista--quemsomos{
+    font-family: serif;
+    padding: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.nav__lista--quemsomos:hover{
+    background-color: #b40e7d;
+    color:#ffffff;   
+}
+
+
+.nav__lista--contatos{
+    font-family: serif;
+    padding: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav__lista--contatos:hover{
+    background-color: #b40e7d;
+    color:#ffffff;   
+}
+
+.container__seção--titulo{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    background-color: #cfc1c0;
+    margin-top: 70px;
+    margin-bottom: 140px;
+    padding: 20px;
+    height: 400px;
+}
+img {
+    width: 785px;
+    position:static;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+
+    
+
+}
+
+.seção__titulo---div{
+
+    display: left;
+    justify-content: left;
+    flex-direction: column;
+    width: 20%;
+}
+
+.seção__titulo{
+    justify-content: left;
+    text-align: left;
+    margin:auto;
+    color:rgb(0, 0, 0);
+    font-family: 'arial';
+    line-height: 1.2;
+    font-weight: 400;
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+
+.seção__titulo--img{
+    width: 300px;
+    display:         flex;
+        display: -webkit-flex;
+        justify-content: center;
+        align-items: center;
+}
+
+
+
+
+/* -------------------- Conteudo -------------------- */
+
+h3{
+    color:rgb(0, 0, 0);
+    font-family: 'Parisienne', cursive;
+    line-height: 1.25;
+    font-weight: 500;
+    font-size: 43px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-left: 15px;
+}
+
+.seçao__conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin-left: 10px;
+}
+
+.seçao__tipos--paragrafos{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    padding-left: 18px;
+    text-align: justify ;
+    margin-bottom: 60px;  
+    line-height: 35px;
+    width: 75%;
+}
+p{
+    text-align: center;
+
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    padding-left: 18px;
+    text-align: justify ;
+    margin-bottom: 60px;  
+    line-height: 35px;
+    width: 75%;
+}
+
+.paragrafoss__span{
+    font-size:22px;
+    font-weight: 500;
+    color: #4da555;
+    /* text-decoration:underline; */
+}
+
+.paragrafoss__span--tipos{
+    font-size:24px;
+    font-weight: 500;
+    color: #1e6924;
+}
+
+.conteudo__paragrafos{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    padding-left: 18px;
+    text-align: justify ;
+    margin-bottom: 90px;  
+    line-height: 32px;
+    width: 75%;
+}
+
+/* -------------------- Footer ---------------------- */
+
+footer{
+    padding-top: 10px;
+    display: flex;
+    margin-top: 300px;
+    background-color: #fcacf8;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer__div{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    
+}
+
+.footer__logo{
+    width: 98px;
+    height: 85px;
+    align-items: center;
+    padding: 5px;
+}
+
+.footer__creditos{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color:#183118;
+    font-weight: 600;
+}
+
+.footer__creditos--copyright{
+    font-size: 12px;
+    padding-top: 8px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color:#29462b;
+    font-weight: 500;
+}
+
+.footer__creditos--freepik{
+    font-size: 14px;
+    padding-top: 18px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color:#29462b;
+    font-weight: 600;
+}
+
+/* ------------------------ Responsividade ----------------- */
+
+/* @media screen and (max-width: 1200px) {
+    
+    .header__header{
+        height: 100px;
+    }
+    nav{
+        width: auto;
+        flex-direction: column;
+    }
+    .conteudo__paragrafos{
+        width: auto;
+    }
+
+}
+
+@media screen and (min-width: 700px){
+    p{
+        font-size: 18px;
+    }
+} */

@@ -1,0 +1,356 @@
+*
+{
+    color:#000000;
+    font-family: 'Marker Felt', fantasy;
+    font-weight: 600;
+    font-variant: normal;
+    font-size: 15px;
+}
+
+body{
+    color:#f8f8f8;
+    background-color: #ffffff;
+}
+
+header{
+    padding: 0;
+    background-color: #55083e;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+}
+
+.header__header{
+    display: flex;
+    align-items: center;
+    height: 85px;
+    justify-content: space-between;
+}
+
+.header__div{
+    display: flex;
+    justify-content: left;
+
+    align-items: center;
+}
+
+.header__icone{
+    width: 60px;
+    padding: 4px;
+    margin: 12px;
+    opacity: 95%;
+}
+
+.header__span{
+    margin-left: 12px;
+    color: #0d4911
+}
+
+h1{
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    text-shadow: 5px 3px 2px #975a92;;
+}
+
+nav{
+    align-items: center;
+    display: flex; 
+    margin-right: 10px;
+    justify-content: right;
+    
+}
+
+ul{
+    
+    justify-content: flex-end;
+    display: flex;
+    margin: 0 auto; 
+}
+.nav__lista{
+    list-style-type: none;
+    text-align: right;
+    justify-content: right;
+    align-items: center;
+    margin: auto;
+    margin-left: 14px;
+    margin-right: 5px;
+    font-family:'Mukta', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.nav__lista--projeto{
+    font-family: serif;
+    padding: 20px;
+    text-decoration: none;
+    color: #ffffff;
+
+}
+.nav__lista--projeto:hover{
+    background-color: #b40e7d;
+    color:#ffffff;   
+}
+
+.nav__lista--agrotoxicos{
+    padding: 5px;
+    text-decoration: none;
+    color: #b40e7d;
+    text-shadow: 1px 1px b40e7d;
+}
+
+.nav__lista--mensagens{
+    font-family: serif;
+    padding: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav__lista--mensagens:hover{
+    background-color: #b40e7d;
+    color:#ffffff;   
+}
+
+.nav__lista--referencias{
+    font-family: serif;
+    padding: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav__lista--referencias:hover{
+    background-color: #b40e7d;
+    color:#ffffff;   
+
+}
+
+.nav__lista--quemsomos{
+    font-family: serif;
+    padding: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.nav__lista--quemsomos:hover{
+    background-color: #b40e7d;
+    color:#ffffff;   
+}
+
+
+.nav__lista--contatos{
+    font-family: serif;
+    padding: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav__lista--contatos:hover{
+    background-color: #b40e7d;
+    color:#ffffff;   
+}
+
+.container__seção--titulo{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    background-color: #cfc1c0;
+    margin-top: 70px;
+    margin-bottom: 140px;
+    padding: 20px;
+    height: 400px;
+}
+
+img {
+    width: 900px;
+    position:static;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+
+    
+
+}
+/*--------------------titulo----------------------*/
+h2{
+    color:rgb(0, 0, 0);
+    text-shadow: 5px 3px 2px #975a92;
+    font-family:'Parisienne', cursive;
+    line-height: 1.25;
+    font-weight: 500;
+    font-size: 58px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-left: 15px;
+}
+
+
+.seção__titulo---div{
+
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    width: 20%;
+}
+
+
+.seção__titulo{
+    justify-content: left;
+    text-align: left;
+    margin:auto;
+    color:rgb(0, 0, 0);
+    font-family: 'Impact', fantasy;
+    line-height: 1.2;
+    font-weight: 400;
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+
+
+
+.seção__titulo--img{
+    width: 420px;
+    display:         flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+/*-----------------------areaProfessores---------------*/
+h3{
+    background-color: #dbdbdb;
+    background-repeat: no-repeat;
+    font-family: 'Hina Mincho', serif;
+    padding-top: 5px;
+    padding-left: 0px;
+    padding-bottom: 7px;
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.seçao__conteudo--professor{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin-left:40px;
+    margin-bottom: 50px;
+    width: 56%;
+}
+.seçao__conteudo--img{
+    width: 200px;
+    
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    width: 56%;
+    flex-direction: row;
+}
+h4{
+    padding-left: 0;
+}
+h4{
+   font-family: 'Quicksand', sans-serif;
+    background-color: #cec2c2;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.897);
+    margin-bottom: 10px;
+}
+h5{
+    margin-top: 70px;
+    margin-left: 70px;
+    padding-left: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.897);
+    margin-bottom: 10px;
+}
+.seçao__seta{
+    margin-left: 50px;
+    flex-direction: row;
+    margin-top: 80px;
+    max-width: 30px;
+    max-height:40px;
+    width: auto;
+    height: auto;
+    display: flex;
+}
+table{
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 1;
+    border: #000000;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+table, td{
+    font-family: 'Quicksand', sans-serif;
+}
+table,th {
+    font-family: Impact, fantasy;
+    font-weight: 300;
+}
+footer{
+    padding-top: 10px;
+    display: flex;
+    margin-top: 300px;
+    background-color: #fcacf8;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer__div{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    
+}
+
+.footer__logo{
+    width: 98px;
+    height: 85px;
+    align-items: center;
+    padding: 5px;
+}
+
+.footer__creditos{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color:#183118;
+    font-weight: 600;
+}
+
+.footer__creditos--copyright{
+    font-size: 12px;
+    padding-top: 8px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color:#29462b;
+    font-weight: 500;
+}
+
+.footer__creditos--freepik{
+    font-size: 14px;
+    padding-top: 18px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color:#29462b;
+    font-weight: 600;
+}

@@ -1,0 +1,49 @@
+footer{
+    padding-top: 10px;
+    display: flex;
+    margin-top: 300px;
+    background-color: #fcacf8;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer__div{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    
+}
+
+.footer__logo{
+    width: 98px;
+    height: 85px;
+    align-items: center;
+    padding: 5px;
+}
+
+.footer__creditos{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color:#183118;
+    font-weight: 600;
+}
+
+.footer__creditos--copyright{
+    font-size: 12px;
+    padding-top: 8px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color:#29462b;
+    font-weight: 500;
+}
+
+.footer__creditos--freepik{
+    font-size: 14px;
+    padding-top: 18px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color:#29462b;
+    font-weight: 600;
+}
